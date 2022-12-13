@@ -1,0 +1,84 @@
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.95),rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.38),rgba(0, 0, 0, 0)),url("../images/pizza.jpg") ;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-attachment: fixed;
+    --width-container: 1200px;
+  }
+
+   .hero-section{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+  }
+
+  .card-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    max-width: var(--width-container);
+    width: 100%;
+  }
+
+  @media(min-width: 540px){
+    .card-grid{
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media(min-width: 960px){
+    .card-grid{
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .card:before{
+    content: '';
+    display: block;
+    padding-bottom: 150%;
+    width: 100%;
+  }
+
+  .card__background{
+    background-size: cover;
+    background-position: center;
+    bottom: 0;
+    filter: brightness(0.85) ;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+  }
+  h3{
+    color: white;
+    font-size: 1.9rem;
+    word-spacing: 100vw;
+  }
+
+   .card__content{
+    padding: 20px;
+    position: absolute;
+  }
+
+  .navbar-brand{
+    padding-left: 50px;
+    font-family:monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .nav-link{
+    font-size: 1.2rem;
+    font-family:monospace;
+  }
+
+  .nav-item{
+    padding-right:20px;
+  }
+
+  .navbar-brand{
+    padding-left: 50px;
+  }

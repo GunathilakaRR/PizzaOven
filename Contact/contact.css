@@ -1,0 +1,41 @@
+body {
+      background-image:linear-gradient(rgba(0, 0, 0, 0.95),rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.38),rgba(0, 0, 0, 0)),url("../images/pizza.jpg") ;
+      background-repeat: no-repeat;
+      background-size:  cover;
+      background-attachment: fixed;
+}
+
+.form_header{
+  padding-top: 0px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 150px;
+  font-family: monospace;
+  font-size: 5rem;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family:monospace;
+}
+
+.nav-item{
+  padding-right:20px;
+}
+
+.navbar-brand{
+  font-family: monospace;
+  font-size: 1.5rem;
+  padding-left: 50px;
+  font-weight: bold;
+
+}
+
